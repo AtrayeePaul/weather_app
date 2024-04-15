@@ -69,7 +69,7 @@ else if (data.weather[0].main == "Rain"){
     weatherIcon.src = "rainy.png";
 }
 else if (data.weather[0].main == "Sunny"){
-    weatherIcon.src = "sunny.png";
+    weatherIcon.src = "clear.png";
     
 }
 else if (data.weather[0].main == "Haze"){
@@ -85,11 +85,27 @@ else if (data.weather[0].main == "Thunderstorm"){
     weatherIcon.src = "thunderstorm.png";
 }
 else if (data.weather[0].main == "Drizzle"){
-    
+    weatherIcon.src = "drizzle.png";
 }
 else if (data.weather[0].main == "Fog"){
     weatherIcon.src = "fog.png";
 }
+else if (data.weather[0].main == "Partly cloudy"){
+    weatherIcon.src = "partly-cloudy.png";
+}
+else if (data.weather[0].main == "Lightning"){
+    weatherIcon.src = "lightning.png";
+}
+else if (data.weather[0].main == "Storm"){
+    weatherIcon.src = "storm.png";
+}
+
+else if (data.weather[0].main == "Windy"){
+    weatherIcon.src = "windy.png";
+}
+
+
+
 
 document.querySelector(".weather").style.display = "block";
 document.querySelector(".error").style.display = "none";
